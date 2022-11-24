@@ -1,18 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/dataBinding">DataBinding</router-link> |
+    <router-link to="/formBinding">FormBinding</router-link> |
+    <router-link to="/vBindingVue">Vbinding</router-link> |
+    <router-link to="/listRenderingVue">ListRenderingVue</router-link> |
+    <router-link to="/computedView">ComputedView</router-link> |
+    <router-link to="/watchView">WatchView</router-link> |
+    <router-link to="/routerParamterView">RouterParamterView</router-link> |
+    <router-link to="/propsParentView">PropsView</router-link>
+  </nav>
+  <router-view />
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
@@ -21,6 +20,28 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+nav {
+  padding: 50px;
+}
+
+nav a {
+  font-weight: unset;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.5rem;
 }
 </style>
