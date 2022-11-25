@@ -11,7 +11,8 @@
     <router-link to="/propsParentView">PropsView</router-link> |
     <router-link to="/provideInject">Provide_Inject</router-link> |
     <router-link to="/slot">Slot</router-link> |
-    <router-link to="/axiosView">Axios</router-link>
+    <router-link to="/axiosView">Axios</router-link> |
+    <router-link to="/vuexView">vuexView</router-link>
   </nav>
   <router-view />
 </template>

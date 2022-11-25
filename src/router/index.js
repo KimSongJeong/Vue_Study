@@ -13,6 +13,7 @@ import PropsParentView from "../views/PropsViews/PropsParentView.vue";
 import ProvideInject from "../views/Provide_Inject/RootView.vue";
 import Slot from "../views/Slot/RootView.vue";
 import AxiosView from "../views/AxiosView.vue";
+import VueXView from "../views/VueXView.vue";
 
 const routes = [
   {
@@ -91,6 +92,11 @@ const routes = [
     path: "/axiosView",
     name: "AxiosView",
     component: AxiosView,
+  },
+  {
+    path: "/vueXView",
+    name: "VueXView",
+    component: VueXView,
   },
 ];
 
