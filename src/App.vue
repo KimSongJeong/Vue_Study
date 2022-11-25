@@ -8,7 +8,9 @@
     <router-link to="/computedView">ComputedView</router-link> |
     <router-link to="/watchView">WatchView</router-link> |
     <router-link to="/routerParamterView">RouterParamterView</router-link> |
-    <router-link to="/propsParentView">PropsView</router-link>
+    <router-link to="/propsParentView">PropsView</router-link> |
+    <router-link to="/provideInject">Provide_Inject</router-link> |
+    <router-link to="/slot">Slot</router-link>
   </nav>
   <router-view />
 </template>

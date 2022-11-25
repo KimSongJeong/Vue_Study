@@ -10,6 +10,8 @@ import WatchView from "../views/WatchView.vue";
 import RouterParamterView from "../views/RouterParamterView.vue";
 import RouterParamterDetailView from "../views/RouterParamterDetailView.vue";
 import PropsParentView from "../views/PropsViews/PropsParentView.vue";
+import ProvideInject from "../views/Provide_Inject/RootView.vue";
+import Slot from "../views/Slot/RootView.vue";
 
 const routes = [
   {
@@ -73,6 +75,16 @@ const routes = [
     path: "/propsParentView",
     name: "PropsParentView",
     component: PropsParentView,
+  },
+  {
+    path: "/provideInject",
+    name: "ProvideInject",
+    component: ProvideInject,
+  },
+  {
+    path: "/slot",
+    name: "Slot",
+    component: Slot,
   },
 ];
 
