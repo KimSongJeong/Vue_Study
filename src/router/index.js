@@ -12,6 +12,7 @@ import RouterParamterDetailView from "../views/RouterParamterDetailView.vue";
 import PropsParentView from "../views/PropsViews/PropsParentView.vue";
 import ProvideInject from "../views/Provide_Inject/RootView.vue";
 import Slot from "../views/Slot/RootView.vue";
+import AxiosView from "../views/AxiosView.vue";
 
 const routes = [
   {
@@ -85,6 +86,11 @@ const routes = [
     path: "/slot",
     name: "Slot",
     component: Slot,
+  },
+  {
+    path: "/axiosView",
+    name: "AxiosView",
+    component: AxiosView,
   },
 ];
 
