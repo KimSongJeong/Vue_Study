@@ -5,14 +5,14 @@
     <router-link to="/formBinding">FormBinding</router-link> |
     <router-link to="/vBindingVue">Vbinding</router-link> |
     <router-link to="/listRenderingVue">ListRenderingVue</router-link> |
-    <router-link to="/computedView">ComputedView</router-link> |
-    <router-link to="/watchView">WatchView</router-link> |
-    <router-link to="/routerParamterView">RouterParamterView</router-link> |
-    <router-link to="/propsParentView">PropsView</router-link> |
+    <router-link to="/computedView">Computed</router-link> |
+    <router-link to="/watchView">Watch</router-link> |
+    <router-link to="/routerParamterView">RouterParamter</router-link> |
+    <router-link to="/propsParentView">Props</router-link> |
     <router-link to="/provideInject">Provide_Inject</router-link> |
     <router-link to="/slot">Slot</router-link> |
     <router-link to="/axiosView">Axios</router-link> |
-    <router-link to="/vuexView">vuexView</router-link>
+    <router-link to="/vuexView">vuex</router-link>
   </nav>
   <router-view />
 </template>
