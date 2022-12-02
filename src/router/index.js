@@ -13,7 +13,7 @@ import PropsParentView from "../views/PropsViews/PropsParentView.vue";
 import ProvideInject from "../views/Provide_Inject/RootView.vue";
 import Slot from "../views/Slot/RootView.vue";
 import AxiosView from "../views/AxiosView.vue";
-import VueXView from "../views/VueXView.vue";
+import VueXView from "../views/VueX/VueXView.vue";
 
 const routes = [
   {

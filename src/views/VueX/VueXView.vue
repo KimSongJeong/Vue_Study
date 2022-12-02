@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>VUEX</h1>
+    <h1>VUEX store 바로 가져오기</h1>
     <div class="mb-5">
       store에서 가져온 count :
-      <span style="color: red">{{ count }}</span>
+      <span style="color: red">{{ formatCnt }}</span>
 
       <div>
         <p>STATE의 값을 바로 변경</p>
@@ -13,14 +13,30 @@
         <button type="button" @click="decrease">감소</button>
       </div>
     </div>
+
+    <div class="mb-5">
+      <VueXMapStateView />
+    </div>
+
+    <div class="mb-5">
+      <VueXAsyncExView />
+    </div>
   </div>
 </template>
 
 <script>
+import VueXMapStateView from "./VueXMapStateView.vue";
+import VueXAsyncExView from "./VueXAsyncExView.vue";
+
 export default {
+  components: {
+    VueXMapStateView,
+    VueXAsyncExView,
+  },
+
   computed: {
-    count() {
-      return this.$store.state.count;
+    formatCnt() {
+      return this.$store.getters.formatCnt;
     },
   },
 
