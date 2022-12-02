@@ -1,5 +1,6 @@
 import axios from "axios";
 import { createStore } from "vuex";
+import user from "./user";
 
 export default createStore({
   // 상태관리 라이브러리(전역적으로 사용되는 것들)
@@ -53,5 +54,7 @@ export default createStore({
       });
     },
   },
-  modules: {},
+  modules: {
+    user,
+  },
 });

@@ -21,17 +21,23 @@
     <div class="mb-5">
       <VueXAsyncExView />
     </div>
+
+    <div class="mb-5">
+      <VueModuleView />
+    </div>
   </div>
 </template>
 
 <script>
 import VueXMapStateView from "./VueXMapStateView.vue";
 import VueXAsyncExView from "./VueXAsyncExView.vue";
+import VueModuleView from "./VueModuleView.vue";
 
 export default {
   components: {
     VueXMapStateView,
     VueXAsyncExView,
+    VueModuleView,
   },
 
   computed: {
